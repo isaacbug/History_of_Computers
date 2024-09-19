@@ -47,10 +47,85 @@ div.scroll-container img {
   <img src="https://oldshirburnian.org.uk/wp-content/uploads/2023/03/1953-LS-May.jpg" width="350" height="300">
 </div>
 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<p style="background-color: lightgrey;width: 300px;border: 7px solid #333;padding: 50px;margin: 20px; font-size:200%"> hellooooo</p>
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
 
+nav {
+  float: left;
+  width: 30%;
+  height: 300px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+<br>
+  <h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Who Was He?</h1>
+<br>
+<section>
+  <nav>
+    <ul>
+      <li><strong>Full Name:</strong> Alan Mathison Turing</li><br><br>
+      <li><strong>Lived:</strong> June 23, 1912 - June 7, 1954</li><br><br>
+      <li><strong>Life:</strong> Born in London and raised in Guildford, passed in Wilmslow</li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>Parents</h1>
+    <p>His dad was named Julius Mathison Turing and his mother was called Ethel Sarah Stoney</p><br>
+    <h1>Education</h1>
+    <p>Alan Turing went to Sherborne School where he had a great friendship with Christopher Morcom who sadly passed away from tuberculosis. He graduated from King's College, Cambridge, and in 1938, earned a doctorate degree from Princeton University.</p>
+  </article>
+</section>
 
    <style>
        body {
